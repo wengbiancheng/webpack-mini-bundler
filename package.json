@@ -1,0 +1,19 @@
+{
+  "name": "webpack-mini-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundler.js",
+  "scripts": {
+    "build": "node bundler.js | highlight"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/parser": "^7.17.3",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/traverse": "^7.17.3",
+    "cli-highlight": "^2.1.11"
+  }
+}
